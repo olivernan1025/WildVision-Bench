@@ -166,7 +166,6 @@ def main(
 
     answer_dir = os.path.join("data", configs["bench_name"], "model_answers")
     ref_answer_dir = os.path.join("data", configs["bench_name"], "reference_answer")
-
     # load bench data
     questions = load_dataset('WildVision/wildvision-arena-data', 'release_bench_0617_with_modelresponse', split='test500')
     
