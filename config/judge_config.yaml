@@ -23,8 +23,9 @@ prompt_template: ["<|User Prompt|>\n{question_1}\n\n<|The Start of Assistant A's
 
 # Add your model below for evaluation
 model_list:
-  - gpt-4-vision-preview
-  - gpt-4o
+  - dx31ultp
+  # - gpt-4-vision-preview
+  # - gpt-4o
   # - BAAI/Bunny-v1_0-3B
   # - bczhou/tiny-llava-v1-hf
   # - deepseek-ai/deepseek-vl-7b-chat
