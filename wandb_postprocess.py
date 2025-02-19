@@ -51,7 +51,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_path",
         type=str,
-        default="/home/olivernan_cohere_com/local-disk/multilingual_LMM_vision_winrate_results/wildvision/dx31ultp_alpha5.csv",
+        default="/home/olivernan_cohere_com/local-disk/multilingual_LMM_vision_winrate_results/wildvision/y0qq39wl.csv",
         help="Path to the dataset",
     )
 
