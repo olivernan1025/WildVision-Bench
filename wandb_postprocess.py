@@ -40,7 +40,7 @@ def main(input_path, output_path):
         data_list.append(data_dict)
 
     print(count)
-
+    print(f"saving to {output_path}")
     with open(os.path.join(output_path, f'{model_name}.jsonl'), "w") as f:
         for data in data_list:
             f.write(json.dumps(data, ensure_ascii=False) + "\n")
@@ -51,7 +51,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_path",
         type=str,
-        default="/home/olivernan_cohere_com/local-disk/multilingual_LMM_vision_winrate_results/wildvision/y0qq39wl.csv",
+        default="/home/olivernan_cohere_com/local-disk/multilingual_LMM_vision_winrate_results/wildvision/guiu7vzp_alpha5.csv",
         help="Path to the dataset",
     )
 
